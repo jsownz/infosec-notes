@@ -13,3 +13,5 @@
 * [Extracting Passwords](pentesting/extracting-passwords.md)
 * [Wireless](pentesting/wireless.md)
 * [XSS Cheatsheet](pentesting/xss-cheatsheet.md)
+* [File Transfers](pentesting/file-transfers.md)
+* [Encoding / Decoding](pentesting/encoding-decoding.md)
