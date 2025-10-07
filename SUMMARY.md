@@ -15,4 +15,5 @@
 * [XSS Cheatsheet](pentesting/xss-cheatsheet.md)
 * [File Transfers](pentesting/file-transfers.md)
 * [Encoding / Decoding](pentesting/encoding-decoding.md)
+* [Encryption](pentesting/encryption.md)
 * [WinRM](pentesting/winrm.md)
