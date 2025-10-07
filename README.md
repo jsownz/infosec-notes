@@ -24,7 +24,7 @@
 * list mounts:
   * `showmount -e [ip]`
 * mount share:
-  * `mount -t nfs -o vers=2 [ip]:[share] /mnt`
+  * `mount -t nfs -o nolock [ip]:[share] /mnt`
 
 ***
 
