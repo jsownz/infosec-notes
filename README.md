@@ -1,5 +1,13 @@
 # Enumeration
 
+#### DNS
+
+```shell-session
+dnsenum --dnsserver [target ip] --enum -p 0 -s 0 -o subdomains.txt -f /usr/share/seclists/Discovery/DNS/subdomains-top1million-110000.txt [TLD domain]
+```
+
+***
+
 #### Nmap
 
 * network scan
