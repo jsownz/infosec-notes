@@ -17,20 +17,16 @@
 * `--source-port` specify a source port, often 53 to slide through dns port
   * can also specify this in netcat when connecting to a port
 
-#### SSL Certs
+***
 
-* crt.sh to get cert information (goes down often)
+#### NFS
 
-```shell-session
-curl -s https://crt.sh/\?q\=[domain]\&output\=json | jq .
-```
+* list mounts:
+  * `showmount -e [ip]`
+* mount share:
+  * `mount -t nfs -o vers=2 [ip]:[share] /mnt`
 
-* Add this string of commands to grep, cut and awk the unique domain names
-*
-
-    ```shell-session
-    grep name | cut -d":" -f2 | grep -v "CN=" | cut -d'"' -f2 | awk '{gsub(/\\n/,"\n");}1;' | sort -u
-    ```
+***
 
 #### SMB
 
@@ -63,3 +59,18 @@ smbget -R //[target ip]/[share name]
 enum4linux-ng [target ip]
 ```
 
+***
+
+#### SSL Certs
+
+* crt.sh to get cert information (goes down often)
+
+```shell-session
+curl -s https://crt.sh/\?q\=[domain]\&output\=json | jq .
+```
+
+* Add this string of commands to grep, cut and awk the unique domain names
+
+```shell-session
+grep name | cut -d":" -f2 | grep -v "CN=" | cut -d'"' -f2 | awk '{gsub(/\\n/,"\n");}1;' | sort -u
+```
