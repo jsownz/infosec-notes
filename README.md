@@ -34,7 +34,7 @@ curl -s https://crt.sh/\?q\=[domain]\&output\=json | jq .
 
 #### SMB
 
-Shares can be enumerated many ways
+SMB shares can be enumerated many ways
 
 ```
 smbclient -N -L //[target ip]
@@ -48,8 +48,15 @@ crackmapexec smb [target ip] --shares -u '' -p ''
 smbmap -H [target ip]
 ```
 
+* can add directory recursion with `-r --depth [num]`
+* can pass the hash with -p (password or hash)
+
 ```
 rpcclient -U "" [target ip]
+```
+
+```
+smbget -R //[target ip]/[share name]
 ```
 
 ```
