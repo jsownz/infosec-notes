@@ -16,4 +16,3 @@
 * `-D` decoy - nmap inserts random IPs in the IP header of the scans
 * `--source-port` specify a source port, often 53 to slide through dns port
   * can also specify this in netcat when connecting to a port
-*
