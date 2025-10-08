@@ -95,7 +95,7 @@ braa [community string]@[target ip]:.1.3.6.*
 
 #### SSL Certs
 
-* crt.sh to get cert information (goes down often)
+* [crt.sh](https://crt.sh/) to get cert information (goes down often)
 
 ```shell-session
 curl -s https://crt.sh/\?q\=[domain]\&output\=json | jq .
@@ -106,3 +106,5 @@ curl -s https://crt.sh/\?q\=[domain]\&output\=json | jq .
 ```shell-session
 grep name | cut -d":" -f2 | grep -v "CN=" | cut -d'"' -f2 | awk '{gsub(/\\n/,"\n");}1;' | sort -u
 ```
+
+* [https://search.censys.io/](https://search.censys.io/)
