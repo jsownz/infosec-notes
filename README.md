@@ -101,10 +101,18 @@ braa [community string]@[target ip]:.1.3.6.*
 curl -s https://crt.sh/\?q\=[domain]\&output\=json | jq .
 ```
 
-* Add this string of commands to grep, cut and awk the unique domain names
+* Pipe this string of commands to grep, cut and awk the unique domain names
 
 ```shell-session
 grep name | cut -d":" -f2 | grep -v "CN=" | cut -d'"' -f2 | awk '{gsub(/\\n/,"\n");}1;' | sort -u
 ```
 
+* Example: find all dev subdomains on facebook.com:
+
+```
+curl -s "https://crt.sh/?q=facebook.com&output=json" | jq -r '.[]
+ | select(.name_value | contains("dev")) | .name_value' | sort -u
+```
+
 * [https://search.censys.io/](https://search.censys.io/)
+
