@@ -1,8 +1,10 @@
 # Table of contents
 
+* [Work In Progress](README.md)
+
 ## Pentesting
 
-* [Enumeration](README.md)
+* [Enumeration](<README (1).md>)
 * [Tools](pentesting/tools.md)
 * [File Inclusion](pentesting/file-inclusion.md)
 * [Privilege Escalation](pentesting/privilege-escalation.md)
