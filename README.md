@@ -69,6 +69,30 @@ enum4linux-ng [target ip]
 
 ***
 
+#### SMTP
+
+```
+smtp-user-enum -U [username file] -M VRFY -t [target ip] -D [domain]
+```
+
+***
+
+#### SNMP
+
+```shell-session
+snmpwalk -v2c -c [community string] [target ip] 
+```
+
+```shell-session
+onesixtyone -c /usr/share/wordlists/seclists/Discovery/SNMP/snmp.txt [target ip]
+```
+
+```
+braa [community string]@[target ip]:.1.3.6.*
+```
+
+***
+
 #### SSL Certs
 
 * crt.sh to get cert information (goes down often)
