@@ -8,6 +8,7 @@
 * [Links](pentesting/links.md)
 * [Reverse Shells Cheatsheet](pentesting/reverse-shells-cheatsheet.md)
 * [Tools](pentesting/tools.md)
+* [Methods](pentesting/methods.md)
 * [Linux](pentesting/linux.md)
 * [Box Notes](pentesting/box-notes.md)
 * [Extracting Passwords](pentesting/extracting-passwords.md)
