@@ -2,6 +2,13 @@
 
 * [Work In Progress](README.md)
 
+## NETWORKING
+
+* [IP Addresses](networking/ip-addresses.md)
+* [MAC Addresses](networking/mac-addresses.md)
+* [TCP & UDP](networking/tcp-and-udp.md)
+* [Common Ports & Protocols](networking/common-ports-and-protocols.md)
+
 ## Pentesting
 
 * [Enumeration](<README (1).md>)
@@ -20,3 +27,7 @@
 * [Encoding / Decoding](pentesting/encoding-decoding.md)
 * [Encryption](pentesting/encryption.md)
 * [WinRM](pentesting/winrm.md)
+
+## DEFENSE
+
+* [Page 1](defense/page-1.md)
