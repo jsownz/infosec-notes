@@ -55,4 +55,4 @@ icon: goal-net
 
 Meaning, a **subnet of 255.255.255.0** has **24 bits switched on** (3 sets of octets), **8 bits switched off** (1 set of octets), which gives it **256 hosts available**.
 
-Example: A **Class C Private IP Address network** of **192.168.86.0/24** and a **subnet** of **255.255.255.0**, will have **256 available hosts**. **Subtract 2 hosts** for the **Network ID and  Broadcast address**, leaves us with **254**, So any IP in the range of **192.168.86.1-254** is available to be assigned on that network.
+Example: A **Class C Private IP Address network** of **192.168.86.0/24** has a **subnet** of **255.255.255.0**, and has **256 available hosts**. **Subtract 2 hosts** for the **Network ID and  Broadcast address**, leaves us with **254**, So any IP in the range of **192.168.86.1-254** is available to be assigned on that network.
