@@ -27,6 +27,10 @@ icon: goal-net
 |                         |               |               |             |               |             |            |            |            |
 | Subnet Mask (Replace X) | 128           | 192           |         224 | 240           | 248         | 252        | 254        | 255        |
 
+#### Cheat Sheet Examples
+
+<table><thead><tr><th width="139.15625"></th><th width="153.32421875">Subnet</th><th width="81.7109375">Hosts</th><th>Network</th><th>Broadcast</th></tr></thead><tbody><tr><td>192.168.1.0/24</td><td>255.255.255.0</td><td>254</td><td>192.168.1.0</td><td>192.168.1.255</td></tr><tr><td>192.168.1.16/28</td><td>255.255.255.240</td><td>14</td><td>192.168.1.16</td><td>192.168.1.31</td></tr><tr><td>192.168.0.0/22</td><td>255.255.252.0</td><td>1022</td><td>192.168.0.0</td><td>192.168.3.255</td></tr></tbody></table>
+
 ### Bits and Octets
 
 #### First Octet
