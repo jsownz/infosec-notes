@@ -8,6 +8,8 @@
 * [MAC Addresses](networking/mac-addresses.md)
 * [TCP & UDP](networking/tcp-and-udp.md)
 * [Common Ports & Protocols](networking/common-ports-and-protocols.md)
+* [OSI Model](networking/osi-model.md)
+* [Subnetting](networking/subnetting.md)
 
 ## Pentesting
 
