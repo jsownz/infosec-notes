@@ -11,6 +11,10 @@
 * [OSI Model](networking/osi-model.md)
 * [Subnetting](networking/subnetting.md)
 
+***
+
+* [Enumeration](enumeration.md)
+
 ## EXPLOITATION
 
 * [Shells](exploitation/shells.md)
@@ -19,7 +23,6 @@
 
 ## Pentesting
 
-* [Enumeration](<README (1).md>)
 * [Tools](pentesting/tools.md)
 * [File Inclusion](pentesting/file-inclusion.md)
 * [Privilege Escalation](pentesting/privilege-escalation.md)
@@ -38,4 +41,4 @@
 
 ## DEFENSE
 
-* [Page 1](defense/page-1.md)
+* [SIEM](defense/siem.md)
