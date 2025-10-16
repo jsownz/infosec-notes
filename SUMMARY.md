@@ -11,6 +11,12 @@
 * [OSI Model](networking/osi-model.md)
 * [Subnetting](networking/subnetting.md)
 
+## EXPLOITATION
+
+* [Shells](exploitation/shells.md)
+* [Payloads](exploitation/payloads.md)
+* [Metasplot](exploitation/metasplot.md)
+
 ## Pentesting
 
 * [Enumeration](<README (1).md>)
