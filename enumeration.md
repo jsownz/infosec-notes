@@ -6,7 +6,7 @@ icon: magnifying-glass
 
 #### DNS
 
-```shell-session
+```sh
 dnsenum --dnsserver [target ip] --enum -p 0 -s 0 -o subdomains.txt -f /usr/share/seclists/Discovery/DNS/subdomains-top1million-110000.txt [TLD domain]
 ```
 
@@ -44,30 +44,30 @@ dnsenum --dnsserver [target ip] --enum -p 0 -s 0 -o subdomains.txt -f /usr/share
 
 SMB shares can be enumerated many ways
 
-```
+```sh
 smbclient -N -L //[target ip]
 ```
 
-```
+```sh
 crackmapexec smb [target ip] --shares -u '' -p ''
 ```
 
-```
+```sh
 smbmap -H [target ip]
 ```
 
 * can add directory recursion with `-r --depth [num]`
 * can pass the hash with -p (password or hash)
 
-```
+```sh
 rpcclient -U "" [target ip]
 ```
 
-```
+```sh
 smbget -R //[target ip]/[share name]
 ```
 
-```
+```sh
 enum4linux-ng [target ip]
 ```
 
@@ -75,7 +75,7 @@ enum4linux-ng [target ip]
 
 #### SMTP
 
-```
+```sh
 smtp-user-enum -U [username file] -M VRFY -t [target ip] -D [domain]
 ```
 
@@ -83,15 +83,15 @@ smtp-user-enum -U [username file] -M VRFY -t [target ip] -D [domain]
 
 #### SNMP
 
-```shell-session
+```sh
 snmpwalk -v2c -c [community string] [target ip] 
 ```
 
-```shell-session
+```sh
 onesixtyone -c /usr/share/wordlists/seclists/Discovery/SNMP/snmp.txt [target ip]
 ```
 
-```
+```sh
 braa [community string]@[target ip]:.1.3.6.*
 ```
 
@@ -101,19 +101,19 @@ braa [community string]@[target ip]:.1.3.6.*
 
 * [crt.sh](https://crt.sh/) to get cert information (goes down often)
 
-```shell-session
+```sh
 curl -s https://crt.sh/\?q\=[domain]\&output\=json | jq .
 ```
 
 * Pipe this string of commands to grep, cut and awk the unique domain names
 
-```shell-session
+```sh
 grep name | cut -d":" -f2 | grep -v "CN=" | cut -d'"' -f2 | awk '{gsub(/\\n/,"\n");}1;' | sort -u
 ```
 
 * Example: find all dev subdomains on facebook.com:
 
-```
+```sh
 curl -s "https://crt.sh/?q=facebook.com&output=json" | jq -r '.[]
  | select(.name_value | contains("dev")) | .name_value' | sort -u
 ```

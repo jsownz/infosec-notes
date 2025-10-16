@@ -20,6 +20,7 @@
 * [Shells](exploitation/shells.md)
 * [Payloads](exploitation/payloads.md)
 * [Metasplot](exploitation/metasplot.md)
+* [Manual Exploitation](exploitation/manual-exploitation.md)
 
 ## Pentesting
 
