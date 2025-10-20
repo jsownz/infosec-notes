@@ -10,6 +10,13 @@ icon: magnifying-glass
 dnsenum --dnsserver [target ip] --enum -p 0 -s 0 -o subdomains.txt -f /usr/share/seclists/Discovery/DNS/subdomains-top1million-110000.txt [TLD domain]
 ```
 
+```sh
+dnsrecon -r [range] -n [dns host ip] -d [domain]
+```
+
+* range should be the network, so something like 127.0.0.0/24 when on the same network
+* `-d` is not really useful here but it a needed flag - can flll with garbage
+
 ***
 
 #### Nmap
