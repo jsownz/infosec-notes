@@ -22,6 +22,11 @@
 * [Metasplot](exploitation/metasplot.md)
 * [Manual Exploitation](exploitation/manual-exploitation.md)
 
+## Privilege Escalation
+
+* [Linux](privilege-escalation/linux.md)
+* [Windows](privilege-escalation/windows.md)
+
 ## Pentesting
 
 * [Tools](pentesting/tools.md)
