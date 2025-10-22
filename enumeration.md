@@ -28,6 +28,7 @@ dnsrecon -r [range] -n [dns host ip] -d [domain]
 * `-sT` is the most stealthy scan, as it uses the entire TCP handshake to check ports
 * `-sA` to bypass many IPS and IDS
 * `-Pn` disable ping
+* `-sU` UDP scan
 * `-n` disable DNS resolution
 * `--disable-arp-ping` disable ARP ping, good for investigating further
 * `--packet-trace` get more info on send and recv
