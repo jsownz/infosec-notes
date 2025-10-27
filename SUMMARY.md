@@ -21,6 +21,7 @@
 * [Payloads](exploitation/payloads.md)
 * [Metasplot](exploitation/metasplot.md)
 * [Manual Exploitation](exploitation/manual-exploitation.md)
+* [XXE & XSLT Injection](exploitation/xxe-and-xslt-injection.md)
 
 ## Privilege Escalation
 
