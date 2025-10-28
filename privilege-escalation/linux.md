@@ -5,6 +5,12 @@ icon: linux
 # Linux
 
 * `sudo -l` to see what sudo can do
+* search for anything owned by the user or groups they are in
+
+```
+find / -user [username] 2>/dev/null | grep -v 'proc\|sys\|run'
+```
+
 * [gtfobins.github.io](https://gtfobins.github.io/)
 * linPEAS
 
