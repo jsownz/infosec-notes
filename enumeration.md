@@ -55,6 +55,7 @@ SMB shares can be enumerated many ways
 
 ```sh
 smbclient -N -L //[target ip]
+smbclient //server/share -U user
 ```
 
 ```sh
