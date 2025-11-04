@@ -31,6 +31,10 @@
 * [Linux](privilege-escalation/linux.md)
 * [Windows](privilege-escalation/windows.md)
 
+## Lateral Movement
+
+* [Techniques](lateral-movement/techniques.md)
+
 ## Pentesting
 
 * [Tools](pentesting/tools.md)
