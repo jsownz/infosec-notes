@@ -22,6 +22,9 @@
 * [Metasplot](exploitation/metasplot.md)
 * [Manual Exploitation](exploitation/manual-exploitation.md)
 * [XXE & XSLT Injection](exploitation/xxe-and-xslt-injection.md)
+* [Responder](exploitation/responder.md)
+* [Bloodhound](exploitation/bloodhound.md)
+* [Certipy](exploitation/certipy.md)
 
 ## Privilege Escalation
 
