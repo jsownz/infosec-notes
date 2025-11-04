@@ -22,9 +22,10 @@
 * [Metasplot](exploitation/metasplot.md)
 * [Manual Exploitation](exploitation/manual-exploitation.md)
 * [XXE & XSLT Injection](exploitation/xxe-and-xslt-injection.md)
-* [Responder](exploitation/responder.md)
-* [Bloodhound](exploitation/bloodhound.md)
-* [Certipy](exploitation/certipy.md)
+* Active Directory
+  * [Responder](exploitation/active-directory/responder.md)
+  * [Bloodhound](exploitation/active-directory/bloodhound.md)
+  * [Escalation](exploitation/active-directory/escalation.md)
 
 ## Privilege Escalation
 
