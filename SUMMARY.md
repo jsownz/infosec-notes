@@ -21,6 +21,7 @@
 * [Payloads](exploitation/payloads.md)
 * [Metasplot](exploitation/metasplot.md)
 * [Manual Exploitation](exploitation/manual-exploitation.md)
+* [Windows](exploitation/windows.md)
 * [XXE & XSLT Injection](exploitation/xxe-and-xslt-injection.md)
 * Active Directory
   * [Responder](exploitation/active-directory/responder.md)
