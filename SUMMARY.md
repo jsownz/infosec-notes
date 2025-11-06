@@ -24,6 +24,7 @@
 * [Windows](exploitation/windows.md)
 * [XXE & XSLT Injection](exploitation/xxe-and-xslt-injection.md)
 * [SQL Injection](exploitation/sql-injection.md)
+* [Local File Inclusion](exploitation/local-file-inclusion.md)
 * Active Directory
   * [Responder](exploitation/active-directory/responder.md)
   * [Bloodhound](exploitation/active-directory/bloodhound.md)
