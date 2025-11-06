@@ -23,6 +23,7 @@
 * [Manual Exploitation](exploitation/manual-exploitation.md)
 * [Windows](exploitation/windows.md)
 * [XXE & XSLT Injection](exploitation/xxe-and-xslt-injection.md)
+* [SQL Injection](exploitation/sql-injection.md)
 * Active Directory
   * [Responder](exploitation/active-directory/responder.md)
   * [Bloodhound](exploitation/active-directory/bloodhound.md)
