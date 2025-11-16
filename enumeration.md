@@ -63,6 +63,10 @@ crackmapexec smb [target ip] --shares -u '' -p ''
 ```
 
 ```sh
+nxc smb [target ip] --shares -u '' -p ''
+```
+
+```sh
 smbmap -H [target ip]
 ```
 
