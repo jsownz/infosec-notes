@@ -19,7 +19,7 @@
 
 * [Shells](exploitation/shells.md)
 * [Payloads](exploitation/payloads.md)
-* [Metasplot](exploitation/metasplot.md)
+* [Metasploit](exploitation/metasploit.md)
 * [Manual Exploitation](exploitation/manual-exploitation.md)
 * [Windows](exploitation/windows.md)
 * [XXE & XSLT Injection](exploitation/xxe-and-xslt-injection.md)
