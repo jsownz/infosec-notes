@@ -6,9 +6,11 @@ icon: magnifying-glass
 
 #### DNS
 
+{% code overflow="wrap" %}
 ```sh
 dnsenum --dnsserver [target ip] --enum -p 0 -s 0 -o subdomains.txt -f /usr/share/seclists/Discovery/DNS/subdomains-top1million-110000.txt [TLD domain]
 ```
+{% endcode %}
 
 ```sh
 dnsrecon -r [range] -n [dns host ip] -d [domain]
