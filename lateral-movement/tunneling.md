@@ -1,14 +1,14 @@
 ---
-icon: microchip
+icon: car-tunnel
 ---
 
-# Techniques
+# Tunneling
 
-### Tunneling
 
-#### Chisel
 
-#### SSH
+### Chisel
+
+### SSH
 
 ```sh
 ssh -D 127.0.0.1:9999 user@hostname

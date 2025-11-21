@@ -37,7 +37,8 @@
 
 ## Lateral Movement
 
-* [Techniques](lateral-movement/techniques.md)
+* [Tunneling](lateral-movement/tunneling.md)
+* [Discovery](lateral-movement/discovery.md)
 
 ## Pentesting
 
