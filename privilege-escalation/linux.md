@@ -20,8 +20,14 @@ curl -L https://github.com/peass-ng/PEASS-ng/releases/latest/download/linpeas.sh
 
 * get suid binaries:&#x20;
 
-```sh
+```bash
 find / -perm -u=s -type f 2>/dev/null
+```
+
+* Search for SSH keys
+
+```bash
+grep -rnE '^\-{5}BEGIN [A-Z0-9]+ PRIVATE KEY\-{5}$' /* 2>/dev/null
 ```
 
 * launching shell from suid binary, use `exec /bin/sh -p` to keep effective uid from being reset
