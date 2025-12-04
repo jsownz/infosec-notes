@@ -26,6 +26,7 @@
 * [SQL Injection](exploitation/sql-injection.md)
 * [Local File Inclusion](exploitation/local-file-inclusion.md)
 * [Active Directory](exploitation/active-directory/README.md)
+  * [LLMNR Poisoning](exploitation/active-directory/llmnr-poisoning.md)
   * [Responder](exploitation/active-directory/responder.md)
   * [Bloodhound](exploitation/active-directory/bloodhound.md)
   * [Escalation](exploitation/active-directory/escalation.md)
