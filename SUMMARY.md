@@ -29,6 +29,7 @@
   * [LLMNR Poisoning](exploitation/active-directory/llmnr-poisoning.md)
   * [SMB Relay Attacks](exploitation/active-directory/smb-relay-attacks.md)
   * [IPv6 Attacks](exploitation/active-directory/ipv6-attacks.md)
+  * [Passback Attacks](exploitation/active-directory/passback-attacks.md)
   * [Responder](exploitation/active-directory/responder.md)
   * [Bloodhound](exploitation/active-directory/bloodhound.md)
   * [Escalation](exploitation/active-directory/escalation.md)
