@@ -32,6 +32,7 @@
   * [Passback Attacks](exploitation/active-directory/passback-attacks.md)
   * [Pass Attacks](exploitation/active-directory/pass-attacks.md)
   * [Kerberoasting](exploitation/active-directory/kerberoasting.md)
+  * [Token Impersonation](exploitation/active-directory/token-impersonation.md)
   * [Responder](exploitation/active-directory/responder.md)
   * [Bloodhound](exploitation/active-directory/bloodhound.md)
   * [Escalation](exploitation/active-directory/escalation.md)
