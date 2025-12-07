@@ -36,6 +36,7 @@
   * [LNK File Attacks](exploitation/active-directory/lnk-file-attacks.md)
   * [GPP/cPassword Attacks](exploitation/active-directory/gpp-cpassword-attacks.md)
   * [Dumping the NTDS.dit](exploitation/active-directory/dumping-the-ntds.dit.md)
+  * [Golden Ticket Attacks](exploitation/active-directory/golden-ticket-attacks.md)
   * [Responder](exploitation/active-directory/responder.md)
   * [Bloodhound](exploitation/active-directory/bloodhound.md)
   * [Escalation](exploitation/active-directory/escalation.md)
