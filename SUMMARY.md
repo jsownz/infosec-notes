@@ -37,6 +37,7 @@
   * [Bloodhound](exploitation/active-directory/bloodhound.md)
   * [Escalation](exploitation/active-directory/escalation.md)
   * [LNK File Attacks](exploitation/active-directory/lnk-file-attacks.md)
+  * [Page 1](exploitation/active-directory/page-1.md)
 
 ## Privilege Escalation
 
