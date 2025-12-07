@@ -36,6 +36,7 @@
   * [Responder](exploitation/active-directory/responder.md)
   * [Bloodhound](exploitation/active-directory/bloodhound.md)
   * [Escalation](exploitation/active-directory/escalation.md)
+  * [LNK File Attacks](exploitation/active-directory/lnk-file-attacks.md)
 
 ## Privilege Escalation
 
