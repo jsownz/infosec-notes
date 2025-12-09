@@ -44,6 +44,12 @@ dnsrecon -r [range] -n [dns host ip] -d [domain]
 #### HTTProbe
 
 ```bash
+cat hosts.txt | httprobe
+```
+
+This will check port 80 and 443, if we want to narrow this down to only ssl, we can add the following parameters to httprobe:
+
+```bash
 cat hosts.txt | httprobe -s -p https:443
 ```
 
