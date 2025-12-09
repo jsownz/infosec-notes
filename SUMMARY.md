@@ -56,7 +56,7 @@
 
 ## Lateral Movement
 
-* [Tunneling](lateral-movement/tunneling.md)
+* [Tunneling / Pivoting](lateral-movement/tunneling-pivoting.md)
 * [Discovery](lateral-movement/discovery.md)
 
 ## Pentesting
