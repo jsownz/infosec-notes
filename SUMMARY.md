@@ -52,6 +52,7 @@
 
 * [File Transfers](post-exploitation/file-transfers.md)
 * [Extracting Passwords](post-exploitation/extracting-passwords.md)
+* [Maintaining Access](post-exploitation/maintaining-access.md)
 
 ## Lateral Movement
 
