@@ -48,6 +48,11 @@
 * [Linux](privilege-escalation/linux.md)
 * [Windows](privilege-escalation/windows.md)
 
+## POST-EXPLOITATION
+
+* [File Transfers](post-exploitation/file-transfers.md)
+* [Extracting Passwords](post-exploitation/extracting-passwords.md)
+
 ## Lateral Movement
 
 * [Tunneling](lateral-movement/tunneling.md)
@@ -56,17 +61,15 @@
 ## Pentesting
 
 * [Tools](pentesting/tools.md)
+* [Links](pentesting/links.md)
 * [File Inclusion](pentesting/file-inclusion.md)
 * [Privilege Escalation](pentesting/privilege-escalation.md)
-* [Links](pentesting/links.md)
 * [Reverse Shells Cheatsheet](pentesting/reverse-shells-cheatsheet.md)
 * [Methods](pentesting/methods.md)
 * [Linux](pentesting/linux.md)
 * [Box Notes](pentesting/box-notes.md)
-* [Extracting Passwords](pentesting/extracting-passwords.md)
 * [Wireless](pentesting/wireless.md)
 * [XSS Cheatsheet](pentesting/xss-cheatsheet.md)
-* [File Transfers](pentesting/file-transfers.md)
 * [Encoding / Decoding](pentesting/encoding-decoding.md)
 * [Encryption](pentesting/encryption.md)
 * [WinRM](pentesting/winrm.md)
