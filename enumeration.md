@@ -4,6 +4,26 @@ icon: magnifying-glass
 
 # Enumeration
 
+#### Amass
+
+{% code overflow="wrap" %}
+```bash
+amass enum -d [domain] > amass.txt
+```
+{% endcode %}
+
+***
+
+#### Assetfinder
+
+{% code overflow="wrap" %}
+```bash
+assetfinder [domain] | grep [domain] > subdomains.txt
+```
+{% endcode %}
+
+***
+
 #### DNS
 
 {% code overflow="wrap" %}
@@ -21,12 +41,19 @@ dnsrecon -r [range] -n [dns host ip] -d [domain]
 
 ***
 
+#### HTTProbe
+
+```bash
+cat hosts.txt | httprobe -s -p https:443
+```
+
+***
+
 #### Nmap
 
 * network scan
-  * `sudo nmap [CIDR ADDR] -sn -oA tnet | grep for | cut -d" " -f5`
-  * using list of hosts
-    * `-iL [host list]`
+* using list of hosts
+  * `-iL [host list]`
 * `-sT` is the most stealthy scan, as it uses the entire TCP handshake to check ports
 * `-sA` to bypass many IPS and IDS
 * `-Pn` disable ping
