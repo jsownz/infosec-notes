@@ -26,6 +26,7 @@
 * [SQL Injection](exploitation/sql-injection.md)
 * [XSS](exploitation/xss.md)
 * [Command Injection](exploitation/command-injection.md)
+* [Insecure File Upload](exploitation/insecure-file-upload.md)
 * [Local File Inclusion](exploitation/local-file-inclusion.md)
 * [Active Directory](exploitation/active-directory/README.md)
   * [LLMNR Poisoning](exploitation/active-directory/llmnr-poisoning.md)
@@ -44,7 +45,6 @@
   * [Bloodhound](exploitation/active-directory/bloodhound.md)
   * [Escalation](exploitation/active-directory/escalation.md)
   * [ZeroLogon](exploitation/active-directory/zerologon.md)
-* [Insecure File Upload](exploitation/insecure-file-upload.md)
 
 ## Privilege Escalation
 
