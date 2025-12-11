@@ -44,6 +44,7 @@
   * [Bloodhound](exploitation/active-directory/bloodhound.md)
   * [Escalation](exploitation/active-directory/escalation.md)
   * [ZeroLogon](exploitation/active-directory/zerologon.md)
+* [Insecure File Upload](exploitation/insecure-file-upload.md)
 
 ## Privilege Escalation
 
