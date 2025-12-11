@@ -25,6 +25,7 @@
 * [XXE & XSLT Injection](exploitation/xxe-and-xslt-injection.md)
 * [SQL Injection](exploitation/sql-injection.md)
 * [XSS](exploitation/xss.md)
+* [Command Injection](exploitation/command-injection.md)
 * [Local File Inclusion](exploitation/local-file-inclusion.md)
 * [Active Directory](exploitation/active-directory/README.md)
   * [LLMNR Poisoning](exploitation/active-directory/llmnr-poisoning.md)
