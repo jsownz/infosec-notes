@@ -75,7 +75,6 @@
 * [Linux](pentesting/linux.md)
 * [Box Notes](pentesting/box-notes.md)
 * [Wireless](pentesting/wireless.md)
-* [XSS Cheatsheet](pentesting/xss-cheatsheet.md)
 * [Encoding / Decoding](pentesting/encoding-decoding.md)
 * [Encryption](pentesting/encryption.md)
 * [WinRM](pentesting/winrm.md)
@@ -87,3 +86,7 @@
 ## POST-ENGAGEMENT
 
 * [Cleanup](post-engagement/cleanup.md)
+
+## Group 1
+
+* [Methodology](group-1/methodology.md)
