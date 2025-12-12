@@ -94,3 +94,7 @@
 
 * [Overview](wireless/overview.md)
 * [Tools](wireless/tools.md)
+
+## Legal
+
+* [Page 1](legal/page-1.md)
