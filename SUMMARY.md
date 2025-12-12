@@ -44,6 +44,7 @@
   * [PrintNightmare](exploitation/active-directory/printnightmare.md)
   * [Responder](exploitation/active-directory/responder.md)
   * [Bloodhound](exploitation/active-directory/bloodhound.md)
+  * [WinRM](exploitation/active-directory/winrm.md)
   * [Escalation](exploitation/active-directory/escalation.md)
   * [ZeroLogon](exploitation/active-directory/zerologon.md)
 * [IDOR](exploitation/idor.md)
@@ -70,14 +71,12 @@
 * [Links](pentesting/links.md)
 * [File Inclusion](pentesting/file-inclusion.md)
 * [Privilege Escalation](pentesting/privilege-escalation.md)
-* [Reverse Shells Cheatsheet](pentesting/reverse-shells-cheatsheet.md)
 * [Methods](pentesting/methods.md)
 * [Linux](pentesting/linux.md)
 * [Box Notes](pentesting/box-notes.md)
 * [Wireless](pentesting/wireless.md)
 * [Encoding / Decoding](pentesting/encoding-decoding.md)
 * [Encryption](pentesting/encryption.md)
-* [WinRM](pentesting/winrm.md)
 
 ## DEFENSE
 
