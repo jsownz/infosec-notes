@@ -11,9 +11,9 @@
 * [OSI Model](networking/osi-model.md)
 * [Subnetting](networking/subnetting.md)
 
-***
+## Enumeration
 
-* [Enumeration](enumeration.md)
+* [Tools](enumeration/tools.md)
 
 ## EXPLOITATION
 
@@ -74,7 +74,6 @@
 * [Methods](pentesting/methods.md)
 * [Linux](pentesting/linux.md)
 * [Box Notes](pentesting/box-notes.md)
-* [Wireless](pentesting/wireless.md)
 * [Encoding / Decoding](pentesting/encoding-decoding.md)
 * [Encryption](pentesting/encryption.md)
 
@@ -86,6 +85,12 @@
 
 * [Cleanup](post-engagement/cleanup.md)
 
-## Group 1
+## Methodology
 
-* [Methodology](group-1/methodology.md)
+* [Web Applications](methodology/web-applications.md)
+* [Wireless](methodology/wireless.md)
+
+## Wireless
+
+* [Overview](wireless/overview.md)
+* [Tools](wireless/tools.md)
