@@ -54,7 +54,9 @@
 * [Linux](privilege-escalation/linux/README.md)
   * [Page 2](privilege-escalation/linux/page-2.md)
 * [Windows](privilege-escalation/windows/README.md)
-  * [Page 1](privilege-escalation/windows/page-1.md)
+  * [Enumeration](privilege-escalation/windows/enumeration.md)
+  * [Network Enumeration](privilege-escalation/windows/network-enumeration.md)
+  * [Password Hunting](privilege-escalation/windows/password-hunting.md)
 
 ## POST-EXPLOITATION
 
