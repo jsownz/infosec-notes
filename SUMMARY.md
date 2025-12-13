@@ -51,8 +51,10 @@
 
 ## Privilege Escalation
 
-* [Linux](privilege-escalation/linux.md)
-* [Windows](privilege-escalation/windows.md)
+* [Linux](privilege-escalation/linux/README.md)
+  * [Page 2](privilege-escalation/linux/page-2.md)
+* [Windows](privilege-escalation/windows/README.md)
+  * [Page 1](privilege-escalation/windows/page-1.md)
 
 ## POST-EXPLOITATION
 
