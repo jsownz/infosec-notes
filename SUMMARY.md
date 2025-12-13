@@ -97,4 +97,4 @@
 
 ## Legal
 
-* [Page 1](legal/page-1.md)
+* [Common Legal Documents](legal/common-legal-documents.md)
