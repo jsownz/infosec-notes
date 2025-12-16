@@ -57,6 +57,9 @@
   * [Enumeration](privilege-escalation/windows/enumeration.md)
   * [Network Enumeration](privilege-escalation/windows/network-enumeration.md)
   * [Password Hunting](privilege-escalation/windows/password-hunting.md)
+  * [AV Enumeration](privilege-escalation/windows/av-enumeration.md)
+  * [Automated Tools](privilege-escalation/windows/automated-tools.md)
+  * [Kernel Exploits](privilege-escalation/windows/kernel-exploits.md)
 
 ## POST-EXPLOITATION
 
