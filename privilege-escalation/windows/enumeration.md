@@ -47,3 +47,9 @@ net user [username]
 net localgroup
 net localgroup [group]
 ```
+
+## Searching
+
+```bash
+where /R [starting dir] [application]
+```
