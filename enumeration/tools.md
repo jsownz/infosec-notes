@@ -55,6 +55,18 @@ cat hosts.txt | httprobe -s -p https:443
 
 ***
 
+### ip-thc
+
+Great recon tool from thc.org, using their REST api
+
+```bash
+ip-thc --target [domain] --subdomain
+ip-thc --target [target-ip] --reverse-dns
+ip-thc --target [domain] --cname [--all]
+```
+
+***
+
 #### Nmap
 
 * network scan
