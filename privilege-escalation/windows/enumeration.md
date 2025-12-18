@@ -9,7 +9,7 @@ icon: magnifying-glass
 
 ```bash
 whoami
-whoami /privs
+whoami /priv
 whoami /groups
 ```
 
