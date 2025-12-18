@@ -11,35 +11,41 @@ icon: windows
 Bash.exe may be present on Windows systems through WSL (Windows Subsystem for Linux), Git Bash, MSYS2, or Cygwin installations.
 
 #### Using `where` command (fastest):
-```cmd
+
+```bash
 where /R C:\ bash.exe
 ```
 
 #### Using PowerShell:
+
 ```powershell
 Get-ChildItem -Path C:\ -Filter bash.exe -Recurse -ErrorAction SilentlyContinue
 ```
 
 #### Using `dir` for recursive search:
-```cmd
+
+```bash
 dir /s /b C:\bash.exe
 ```
 
 #### Common bash.exe locations:
-- `C:\Windows\System32\bash.exe` (WSL)
-- `C:\Program Files\Git\bin\bash.exe` (Git Bash)
-- `C:\Program Files\Git\usr\bin\bash.exe` (Git Bash)
-- `C:\msys64\usr\bin\bash.exe` (MSYS2)
-- `C:\cygwin\bin\bash.exe` (Cygwin)
+
+* `C:\Windows\System32\bash.exe` (WSL)
+* `C:\Program Files\Git\bin\bash.exe` (Git Bash)
+* `C:\Program Files\Git\usr\bin\bash.exe` (Git Bash)
+* `C:\msys64\usr\bin\bash.exe` (MSYS2)
+* `C:\cygwin\bin\bash.exe` (Cygwin)
 
 #### Quick WSL check:
-```cmd
+
+```bash
 wsl --list
 wsl --status
 ```
 
 ### Finding any executable
-```cmd
+
+```bash
 where /R C:\ [filename.exe]
 ```
 
@@ -50,69 +56,80 @@ Get-ChildItem -Path C:\ -Filter [filename.exe] -Recurse -ErrorAction SilentlyCon
 ## System Information
 
 ### Basic System Info
-```cmd
+
+```bash
 systeminfo
 ```
 
 ### OS Information
-```cmd
+
+```bash
 ver
 wmic os get Caption,Version,BuildNumber,OSArchitecture
 ```
 
 ### Installed Software
+
 ```powershell
 Get-ItemProperty HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\* | Select-Object DisplayName, DisplayVersion, Publisher, InstallDate
 ```
 
-```cmd
+```bash
 wmic product get name,version
 ```
 
 ## User Enumeration
 
 ### Current User
-```cmd
+
+```bash
 whoami
 whoami /priv
 whoami /groups
 ```
 
 ### List all users
-```cmd
+
+```bash
 net user
 net localgroup administrators
 ```
 
 ### User details
-```cmd
+
+```bash
 net user [username]
 ```
 
 ## Network Information
 
 ### Network configuration
-```cmd
+
+```bash
 ipconfig /all
 ```
 
 ### Routing table
-```cmd
+
+```bash
 route print
 ```
 
 ### ARP cache
-```cmd
+
+```bash
 arp -a
 ```
 
 ### Active connections
-```cmd
+
+```bash
 netstat -ano
 ```
 
 ### Firewall status
-```cmd
+
+```bash
 netsh advfirewall show allprofiles
 netsh firewall show state
 netsh firewall show config
@@ -121,7 +138,8 @@ netsh firewall show config
 ## Process and Service Enumeration
 
 ### Running processes
-```cmd
+
+```bash
 tasklist /v
 ```
 
@@ -130,7 +148,8 @@ Get-Process
 ```
 
 ### Services
-```cmd
+
+```bash
 sc query
 net start
 ```
@@ -140,14 +159,16 @@ Get-Service
 ```
 
 ### Scheduled tasks
-```cmd
+
+```bash
 schtasks /query /fo LIST /v
 ```
 
 ## File and Directory Enumeration
 
 ### Search for files
-```cmd
+
+```bash
 dir /s /b C:\[filename]
 ```
 
@@ -156,16 +177,19 @@ Get-ChildItem -Path C:\ -Include [pattern] -Recurse -ErrorAction SilentlyContinu
 ```
 
 ### Find files containing specific text
-```cmd
+
+```bash
 findstr /si [text] C:\*.txt
 ```
 
 ### Recently modified files
+
 ```powershell
 Get-ChildItem -Path C:\ -Recurse -ErrorAction SilentlyContinue | Where-Object {$_.LastWriteTime -gt (Get-Date).AddDays(-7)}
 ```
 
 ### World-writable folders
+
 ```powershell
 Get-ChildItem 'C:\Program Files' -Recurse | Get-ACL | Where-Object {$_.AccessToString -match "Everyone\sAllow\s\sModify"}
 ```
@@ -173,13 +197,15 @@ Get-ChildItem 'C:\Program Files' -Recurse | Get-ACL | Where-Object {$_.AccessToS
 ## Registry Enumeration
 
 ### Search registry
-```cmd
+
+```bash
 reg query HKLM /f [keyword] /t REG_SZ /s
 reg query HKCU /f [keyword] /t REG_SZ /s
 ```
 
 ### AutoRun programs
-```cmd
+
+```bash
 reg query HKLM\Software\Microsoft\Windows\CurrentVersion\Run
 reg query HKCU\Software\Microsoft\Windows\CurrentVersion\Run
 ```
@@ -187,12 +213,14 @@ reg query HKCU\Software\Microsoft\Windows\CurrentVersion\Run
 ## Credentials and Sensitive Data
 
 ### Check for saved credentials
-```cmd
+
+```bash
 cmdkey /list
 ```
 
 ### Search for passwords in files
-```cmd
+
+```bash
 findstr /si password C:\*.txt
 findstr /si password C:\*.xml
 findstr /si password C:\*.ini
@@ -204,25 +232,29 @@ Get-ChildItem -Path C:\ -Include *.txt,*.xml,*.config,*.ini -Recurse -ErrorActio
 ```
 
 ### Unattended install files
-```cmd
+
+```bash
 dir /s *sysprep.inf *sysprep.xml *unattended.xml *unattend.xml
 ```
 
 ## Installed Programs and Paths
 
 ### PATH environment variable
-```cmd
+
+```bash
 echo %PATH%
 ```
 
 ### Program Files directories
-```cmd
+
+```bash
 dir "C:\Program Files"
 dir "C:\Program Files (x86)"
 ```
 
 ### Check for development tools
-```cmd
+
+```bash
 where python
 where python3
 where perl
@@ -230,3 +262,7 @@ where ruby
 where gcc
 where git
 ```
+
+### Locksmith
+
+[https://github.com/jakehildreth/Locksmith](https://github.com/jakehildreth/Locksmith)
