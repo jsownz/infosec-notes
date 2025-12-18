@@ -95,7 +95,7 @@
 
 ## Methodology
 
-* [Web Applications](methodology/web-applications.md)
+* [Web Application Checklist](methodology/web-applications.md)
 * [Wireless](methodology/wireless.md)
 
 ## Wireless
