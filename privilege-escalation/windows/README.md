@@ -4,7 +4,7 @@ icon: windows
 
 # Windows
 
-#### Gather Info
+## Gather Info
 
 ```
 > systeminfo
@@ -24,16 +24,16 @@ net user [username]
 
 
 
-### Password Attacks
+## Password Attacks
 
-#### Registry Hives
+### Registry Hives
 
 | `HKLM\SAM`      | Contains password hashes for local user accounts. These hashes can be extracted and cracked to reveal plaintext passwords.                                        |
 | --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `HKLM\SYSTEM`   | Stores the system boot key, which is used to encrypt the SAM database. This key is required to decrypt the hashes.                                                |
 | `HKLM\SECURITY` | Contains sensitive information used by the Local Security Authority (LSA), including cached domain credentials (DCC2), cleartext passwords, DPAPI keys, and more. |
 
-#### Using reg.exe to copy registry hives
+### Using reg.exe to copy registry hives
 
 This must be done with Admin privileges
 
@@ -52,7 +52,7 @@ Create an SMB share to transfer the files to your machine (impacket-smbserver)
 
 Use move command to move files to SMB share
 
-#### Using secretsdump to dump hashes
+### Using secretsdump to dump hashes
 
 {% code overflow="wrap" %}
 ```bash
@@ -73,3 +73,14 @@ You may also be able to do the same with the SAM
 ```bash
 nxc smb [target] --local-auth  -u [user] -p [pass] --sam
 ```
+
+## Alternate Data Streams
+
+File attribute only found on NTFS File Systems
+
+```bash
+dir /R
+more < [hidden data]
+```
+
+{% embed url="https://blog.malwarebytes.com/101/2015/07/introduction-to-alternate-data-streams/" %}
