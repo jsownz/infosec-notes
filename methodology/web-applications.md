@@ -2,7 +2,7 @@
 icon: browser
 ---
 
-# Web Applications
+# Web Application Checklist
 
 ## CSRF
 
@@ -68,6 +68,9 @@ twice)
 ## Template injections (CSTI/SST)
 
 * ${7\*7}
+*
+
+    <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 * If resolves, what templating engine
 * Try exploit by looking at manuals — URL encode special chars ({}\*) — HTML entities — Double encodings XSS:
 * ‘“`><img src=x> into every input field, the moment you register and start using the application "onclick=prompt(8)>"@x.y "onclick=prompt(8)><svg/onload=prompt(8)>"@x.y <image/src/onerror=prompt(8)> <img/src/onerror=prompt(8)> jaVasCript :/*-/*`/_\`/_'/_"/\*\*/(/_ \*/oNcliCk=alert() )//%0D%0A%0d%0a//\</stYle/\</titLe/\</teXtarEa/\</scRipt/--!>\x3csVg/\<sVg/oN loAd=alert()//>\x3e
