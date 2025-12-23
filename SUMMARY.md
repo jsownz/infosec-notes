@@ -14,7 +14,6 @@
 ## Enumeration
 
 * [Tools](enumeration/tools.md)
-* [Windows Enumeration](enumeration/windows-enumeration.md)
 
 ## EXPLOITATION
 
@@ -61,6 +60,8 @@
   * [AV Enumeration](privilege-escalation/windows/av-enumeration.md)
   * [Automated Tools](privilege-escalation/windows/automated-tools.md)
   * [Kernel Exploits](privilege-escalation/windows/kernel-exploits.md)
+  * [Getsystem](privilege-escalation/windows/getsystem.md)
+  * [RunAs](privilege-escalation/windows/runas.md)
 
 ## POST-EXPLOITATION
 
