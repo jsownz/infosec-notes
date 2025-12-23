@@ -89,23 +89,23 @@
 * [Encoding / Decoding](pentesting/encoding-decoding.md)
 * [Encryption](pentesting/encryption.md)
 
-## DEFENSE
-
-* [SIEM](defense/siem.md)
-
 ## POST-ENGAGEMENT
 
 * [Cleanup](post-engagement/cleanup.md)
-
-## Methodology
-
-* [Web Application Checklist](methodology/web-applications.md)
-* [Wireless](methodology/wireless.md)
 
 ## Wireless
 
 * [Overview](wireless/overview.md)
 * [Tools](wireless/tools.md)
+
+## DEFENSE
+
+* [SIEM](defense/siem.md)
+
+## Methodology
+
+* [Web Application Checklist](methodology/web-applications.md)
+* [Wireless](methodology/wireless.md)
 
 ## Legal
 
