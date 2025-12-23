@@ -197,6 +197,12 @@ Get-ChildItem 'C:\Program Files' -Recurse | Get-ACL | Where-Object {$_.AccessToS
 
 ## Registry Enumeration
 
+### AlwaysInstallElevated
+
+```bash
+reg query HKCU\Software\Policies\Microsoft\Windows\Installer
+```
+
 ### Search registry
 
 ```bash
