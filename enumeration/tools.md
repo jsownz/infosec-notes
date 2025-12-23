@@ -59,6 +59,8 @@ cat hosts.txt | httprobe -s -p https:443
 
 Great recon tool from thc.org, using their REST api
 
+{% embed url="https://github.com/haltman-io/ip-thc" %}
+
 ```bash
 ip-thc --target [domain] --subdomain
 ip-thc --target [target-ip] --reverse-dns

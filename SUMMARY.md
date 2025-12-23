@@ -62,6 +62,8 @@
   * [Kernel Exploits](privilege-escalation/windows/kernel-exploits.md)
   * [Getsystem](privilege-escalation/windows/getsystem.md)
   * [RunAs](privilege-escalation/windows/runas.md)
+  * [Startup Applications](privilege-escalation/windows/startup-applications.md)
+  * [DDL Hijacking](privilege-escalation/windows/ddl-hijacking.md)
 
 ## POST-EXPLOITATION
 

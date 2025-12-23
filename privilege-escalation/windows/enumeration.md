@@ -54,6 +54,14 @@ where /R C:\ [filename.exe]
 Get-ChildItem -Path C:\ -Filter [filename.exe] -Recurse -ErrorAction SilentlyContinue
 ```
 
+## DACLS
+
+Check access for directories
+
+```bash
+icacls.exe "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup"
+```
+
 ## System Information
 
 ### Basic System Info
