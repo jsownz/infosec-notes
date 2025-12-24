@@ -90,6 +90,7 @@
 * [Box Notes](pentesting/box-notes.md)
 * [Encoding / Decoding](pentesting/encoding-decoding.md)
 * [Encryption](pentesting/encryption.md)
+* [Modbus](pentesting/modbus.md)
 
 ## POST-ENGAGEMENT
 
