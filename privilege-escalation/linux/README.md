@@ -39,3 +39,9 @@ grep -rnE '^\-{5}BEGIN [A-Z0-9]+ PRIVATE KEY\-{5}$' /* 2>/dev/null
 * checking strings in files
   * `strings [file]`
     * try `-e l` also
+
+## Checking local listeners
+
+```bash
+ss -tunlp
+```

@@ -15,7 +15,6 @@
 
 * [Tools](enumeration/tools.md)
 * [DNS Enumeration](enumeration/dns-enumeration.md)
-* [Windows Enumeration](enumeration/windows-enumeration.md)
 
 ## EXPLOITATION
 
