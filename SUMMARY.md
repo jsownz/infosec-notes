@@ -67,6 +67,7 @@
   * [Startup Applications](privilege-escalation/windows/startup-applications.md)
   * [DDL Hijacking](privilege-escalation/windows/ddl-hijacking.md)
   * [binPath](privilege-escalation/windows/binpath.md)
+  * [Unquoted Service Paths](privilege-escalation/windows/unquoted-service-paths.md)
 
 ## POST-EXPLOITATION
 
