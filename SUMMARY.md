@@ -91,6 +91,7 @@
 * [Encoding / Decoding](pentesting/encoding-decoding.md)
 * [Encryption](pentesting/encryption.md)
 * [Modbus](pentesting/modbus.md)
+* [AWS](pentesting/aws.md)
 
 ## POST-ENGAGEMENT
 
