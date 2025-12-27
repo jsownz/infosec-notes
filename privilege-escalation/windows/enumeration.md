@@ -5,6 +5,8 @@ icon: magnifying-glass
 
 # Enumeration
 
+## Check Recycle Bin
+
 ## Finding Executables
 
 ### Finding bash.exe
